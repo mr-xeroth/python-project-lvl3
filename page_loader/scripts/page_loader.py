@@ -24,7 +24,9 @@ def parse_cli_args():
 
 
 def main():
-    file_path = download('https://ru.hexlet.io/courses', '/var/tmp')
+    #file_path = download('https://ru.hexlet.io/courses', '/var/tmp')
+    #file_path = download('http://pixabay.com', '/var/tmp')
+    file_path = download('http://localhost/', '/var/tmp')
     print(file_path)
 
 
